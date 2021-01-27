@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -35,3 +36,34 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+section {
+    color: #39a6b2;
+}
+
+.hero {
+    background-image: url("/img/01-HTML-Git-CSS_05-Module-Project_lesson-files_1.3_assets_images_hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer a, .link {
+    color: #024e76;
+    float: right;
+}
+
